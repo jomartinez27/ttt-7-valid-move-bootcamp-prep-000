@@ -2,7 +2,10 @@
 def valid_move?(board, pos)
   if position_taken?(board, pos)
     false
-    elsif pos.between?()
+    elsif pos.between?(0, 9)
+    true
+  else
+    true
   end
 end
 
