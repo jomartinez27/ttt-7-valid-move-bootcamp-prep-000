@@ -2,7 +2,7 @@
 def valid_move?(board, pos)
   return false if position_taken?(board, pos)
   return true if !position_taken?(board, pos)
-  return false if board[pos] == nil
+  return false if board[pos] 
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
