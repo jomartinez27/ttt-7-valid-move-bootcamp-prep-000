@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, pos)
-  if position_taken?(board, pos) || (0..8).include?(pos)
+  if position_taken?(board, pos)
     false
   else
     true
